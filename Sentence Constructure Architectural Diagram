@@ -1,10 +1,10 @@
-Sentence Constructor Architectural Diagram: 
+# Sentence Constructor Architectural Diagram: 
 
-Business Case: 
-A mid sized consulting firm that specializes in Federal Contracts will be assistanting it's overseas branch in Yokohama, Japan. The organization will deploy a task force of 30 employees that are mid-level Japanese students. The team will be comprised of company Directors, Partners, Managing Consultants, Consultants, Business Analysts and Technical Subject Matter Experts.
+# Business Case: 
+# A mid sized consulting firm that specializes in Federal Contracts will be assistanting it's overseas branch in Yokohama, Japan. The organization will deploy a task force of 30 employees that are mid-level Japanese students. The team will be comprised of company Directors, Partners, Managing Consultants, Consultants, Business Analysts and Technical Subject Matter Experts.
 
-Technical Considerations: 
-The diagram will be a high-level conceptual diagram to help communicate archiectural build of the sentence constructor. It will also serve as a talking point to convey how this new development will aid the task force. 
+# Technical Considerations: 
+# The diagram will be a high-level conceptual diagram to help communicate archiectural build of the sentence constructor. It will also serve as a talking point to convey how this new development will aid the task force. 
 
 Requirements: 
 A no-code open-source GenAI solution.
