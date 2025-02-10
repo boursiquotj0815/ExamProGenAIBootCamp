@@ -32,7 +32,7 @@ The user wants me to create a sample response to the sentence "Have you looked o
 I need to guide employees on forming "Have you looked over the file from this morning?" into Japanese without directly providing the translation. For "looked over," the dictionary form "確認する" is useful, while "ファイル" for "file" works here, though "書類" could also be an option. "This morning" is "今朝," and I should suggest that employees remember how to create a question using the right tense, which they'll need to figure out. I'll provide a vocabulary table and tip them with how to form questions and use proper particles.”
 
 Response from the assistant: 
-Below is a sample response outline that breaks down the sentence into components along with clues and a vocabulary table. Remember:
+" Below is a sample response outline that breaks down the sentence into components along with clues and a vocabulary table. Remember:
 •	Do not copy the final transcription verbatim.
 •	Use the clues to construct the sentence on your own.
 •	All verbs and words are given in their dictionary form—you must adjust the tense (and formality) as needed.
@@ -74,5 +74,5 @@ Using the clues and vocabulary table:
 •	Step 3: Conjugate the verb (originally in its dictionary form) into the proper tense and polite form that matches the English meaning “Have you …?”
 •	Step 4: Finish the sentence with the question marker か.
 ________________________________________
-Remember: The final sentence is yours to construct. Use these hints to guide your work, and feel free to ask for further clues if needed—just not the full answer!
+Remember: The final sentence is yours to construct. Use these hints to guide your work, and feel free to ask for further clues if needed—just not the full answer!"
  
