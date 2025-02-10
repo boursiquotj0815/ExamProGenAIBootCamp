@@ -1,1 +1,78 @@
+# First iteration of this would use the AI Assistant of choice – WatsonX AI by IBM. However there are numerous limitations with this AI bot. It is restricted to only what it’s been taught. If there is a gap in knowledge with the IBM trainers, the bot will not have that knowledge as well. 
+# Using WatsonX by IBM, engineers are able to customize their chatbot through the use of the “Prompt Lab”. 
+# It allows engineers to upload documents, images and prompt inputs needed to train the chatbot on the specific topic. It was developed in 2024 based on the “Transformer Archiecture”, making it neither an LLM or GenAI. Although this allows the bot the ability to learn using natural language processing, it may not suit our business case entirely. 
 
+# ChatGBT is the best choice for this business case.
+
+# Version used:
+# ChatGBT 4o – for our use case, ChatGBT 4o has the ability to not only process but understand natural language, leverage content generation and conversational intelligence. 
+
+# Initial prompt: 
+“ You will serve as an on the go language pocket assistant that assists with sentence construction. 
+Use case: Based on the JLPT5, our organization employees are mid-level Japanese students. The employees will provide you with an English sentence meant to be used in a work environment You will need to help the employees transcribe the sentence into Japanese in a clear, concise and professional manner. 
+
+Requirements: 
+-	Don’t give away the transcriptions and provide clues for the employees 
+-	If the employees ask for an answer, only provide clues that they can work through to solve the question 
+Provide words in their dictionary form 
+-	Employees must figure out tense 
+-	Provide a table of vocabulary words which include the following and any variations: 
+  o	nouns, verbs, adverbs, adjectives, onomatopes, prepositions, conjunctions, determiners, model verbs, particles, intensifiers, articles, expletives, clauses, etc.  
+-	The table should only have the following columns, Romaji, English, Kanji, Hiragana and Katana
+
+Based on these instructions can you provide a sample response for the following sentence: 
+“Have you looked over the file from this morning?””
+
+# Results: 
+It took 22 seconds for the bot to provide an response:
+
+“The user wants help organizing tasks as a language assistant for Japanese learners, specifically employees at a mid-level JLPT5. The goal is to support with sentence construction for work-related contexts but not give direct translations, only clues for the learners to figure things out themselves. This means providing dictionary forms for words, covering a broad array of parts of speech, and requiring employees to work out the tense. They'll also need a table with vocabulary words in Romaji, English, Kanji, Hiragana, and Katakana.
+Got it!
+The user wants me to create a sample response to the sentence "Have you looked over the file from this morning?" while following the instructions–providing only clues and not the full transcription. I need to help employees construct the sentence by giving them hints, such as dictionary forms of words like "to look over," “file,” and "this morning." Additionally, I need to include a vocabulary table for these words while keeping the answer open-ended so employees can figure out the rest. No full transcriptions—just the hints.
+I need to guide employees on forming "Have you looked over the file from this morning?" into Japanese without directly providing the translation. For "looked over," the dictionary form "確認する" is useful, while "ファイル" for "file" works here, though "書類" could also be an option. "This morning" is "今朝," and I should suggest that employees remember how to create a question using the right tense, which they'll need to figure out. I'll provide a vocabulary table and tip them with how to form questions and use proper particles.”
+
+Response from the assistant: 
+Below is a sample response outline that breaks down the sentence into components along with clues and a vocabulary table. Remember:
+•	Do not copy the final transcription verbatim.
+•	Use the clues to construct the sentence on your own.
+•	All verbs and words are given in their dictionary form—you must adjust the tense (and formality) as needed.
+________________________________________
+Sentence to Construct:
+“Have you looked over the file from this morning?”
+________________________________________
+Clues for Construction:
+1.	Main Verb:
+  o	The core action is “to look over” (i.e., to check or confirm).
+  o	Look in the vocabulary table for the dictionary form of the verb that fits a work context.
+  o	Clue: Think about how you would express having completed the action in a polite question without explicitly stating the past tense in the dictionary form.
+2.	Object (File):
+  o	Decide whether to use a borrowed word or a native term that fits a professional setting.
+  o	Clue: Use the object particle (from the vocabulary table) after the noun.
+3.	Time Expression (This Morning):
+  o	Express “this morning” as a time modifier.
+  o	Clue: Combine the time word with a connecting particle (see the table) to modify the noun “file.”
+4.	Question Format:
+  o	The entire sentence should end with a question marker.
+  o	Clue: Place the question marker at the end of your sentence after you have arranged the components.
+5.	Overall Structure:
+  o	In Japanese, time expressions typically come before the object.
+  o	Clue: Arrange your sentence in the order of Time → Object → Verb, ensuring you insert the appropriate particles.
+________________________________________
+Vocabulary Table
+Romaji	| English	| Kanji	| Hiragana	| Katakana
+kakunin suru	|to check/confirm	| 確認する	| かくにんする	
+fairu	| file	| –	–	| ファイル
+kesa	| this morning	| 今朝	| けさ	
+no	| (possessive/attribute marker)	| –	| の	
+wo	| (object marker)| 	–	| を	
+ka	| (question marker)	| –	| か	
+________________________________________
+Your Task:
+Using the clues and vocabulary table:
+•	Step 1: Identify which parts of the sentence each word belongs to.
+•	Step 2: Decide on the correct particle placement (e.g., using の to connect “this morning” with “file”, and を to mark “file” as the object).
+•	Step 3: Conjugate the verb (originally in its dictionary form) into the proper tense and polite form that matches the English meaning “Have you …?”
+•	Step 4: Finish the sentence with the question marker か.
+________________________________________
+Remember: The final sentence is yours to construct. Use these hints to guide your work, and feel free to ask for further clues if needed—just not the full answer!
+ 
